@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2022-09-19T07:54:05Z"
+  labels:
+    kubernetes.io/metadata.name: kubenamespace
+  name: kubenamespace
+  uid: c3e3dd0e-a8d6-4bb5-906b-8a7a47dd35ef
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
