@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: test
   creationTimestamp: null
   labels:
     app: camunda
@@ -13,6 +14,7 @@ spec:
   strategy: {}
   template:
     metadata:
+      namespace: test
       creationTimestamp: null
       labels:
         app: camunda
